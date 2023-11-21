@@ -1,5 +1,5 @@
 import { FaChevronDown } from "react-icons/fa";
-import { navigationLinks } from "../constants";
+import { navigationLinks } from "../../constants";
 import { useState } from "react";
 
 const Navigation = () => {

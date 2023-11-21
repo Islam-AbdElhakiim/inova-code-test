@@ -21,7 +21,7 @@ const BookCard = ({ book }: any) => {
                 <b>{book.attributes.price}</b>
             </div>
             <div className="flex justify-between items-center w-full gap-2">
-                <Link href={`/ebook-product/${book.attributes.book.id}`} className="bg-green-500 py-3 w-3/4">
+                <Link href={`/ebook-product/${book.id}`} className="bg-green-500 py-3 w-3/4">
                     Show Details
                 </Link>
                 <Link href={`/product-overview/${book.attributes.book.id}`} className="bg-green-500 w-1/4 py-3 flex justify-center items-center bg-transparent border border-green-500">

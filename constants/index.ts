@@ -35,3 +35,7 @@ export const navigationLinks: any = {
 export const footerLinks: any = [
     "News", "Tournaments", "Courses", "E-Books", "Privacy", "policies", "Terms & Conditions", "Contact Us"
 ]
+
+export const categories: any = [
+    "ALL", "FLEXIBILITY", "TRAINAINGWEIGHT", "TRAININGCARDIO", "TRAININGFITNESSONLINE"
+]

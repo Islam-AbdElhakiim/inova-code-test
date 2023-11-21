@@ -1,7 +1,7 @@
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import Logo from "./Logo";
+import Logo from "../Header/Logo";
 import Link from "next/link";
 import { footerLinks } from "@/constants";
 
@@ -14,7 +14,7 @@ const Footer = () => {
 
     ]
     return (
-        <footer className="flex flex-col items-center justify-center w-full  py-5 text-white ">
+        <footer className="flex flex-col items-center justify-center w-full  py-5 text-white mt-16">
             <div className="flex justify-center items-center w-[60%] mx-auto  border-b py-5">
                 <div className=" flex-1 ">
 
